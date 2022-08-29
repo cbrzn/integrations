@@ -1,0 +1,16 @@
+{
+  "name": "ipfs-http-wrapper",
+  "version": "1.0.0",
+  "description": "Wrapper to interact with IPFS through Http",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx polywrap build -v"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "polywrap": "0.4.1"
+  },
+  "devDependencies": {
+    "@polywrap/client-js": "0.4.1"
+  }
+}

@@ -1,0 +1,8 @@
+type Module {
+  get(url: String!): Response!
+}
+
+type Response {
+  status: Int!,
+  data: String!
+}
