@@ -1,16 +1,17 @@
 [package]
-name = "rs"
-version = "0.0.1"
+name = "ipfs-http-wrapper"
+version = "0.1.1"
 description = "Wrapper to interact with IPFS through Http"
 repository = "https://github.com/polywrap/integrations"
 license = "MIT"
 edition = "2021"
 
 [dependencies]
-reqwest = "0.11.11"
+ipfs-api-backend-actix = "0.6"
 futures = "0.3"
 polywrap-wasm-rs = { version = "0.1.1" }
 serde = { version = "1.0", features = ["derive"] }
+actix-rt = "2.7.0"
 
 [lib]
 crate-type = ["cdylib"]

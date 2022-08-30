@@ -79,7 +79,7 @@ RUN mkdir ./build
 
 # Enable the "WASM_INTERFACE_TYPES" feature, which will remove the __wbindgen_throw import.
 # See: https://github.com/rustwasm/wasm-bindgen/blob/7f4663b70bd492278bf0e7bba4eeddb3d840c868/crates/cli-support/src/lib.rs#L397-L403
-#ENV WASM_INTERFACE_TYPES=1
+ENV WASM_INTERFACE_TYPES=1
 
 # Run wasm-bindgen over the module, replacing all placeholder __wbindgen_... imports
 RUN wasm-bindgen ././target/wasm32-unknown-unknown/release/module.wasm --out-dir ./build --out-name bg_module.wasm

@@ -1,5 +1,3 @@
-mod get;
-
 use ipfs_api_backend_actix::{IpfsClient, IpfsApi};
 use std::fs::File;
 use std::path::Path;
