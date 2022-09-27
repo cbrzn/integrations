@@ -1,5 +1,5 @@
 type Module {
-  get(url: String!): Response!
+  get(url: String!): String!
 }
 
 type Response {

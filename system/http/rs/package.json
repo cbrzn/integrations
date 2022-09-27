@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "npx polywrap build -v",
-    "test": "jest --passWithNoTests --runInBand --verbose"
+    "test": "npx polywrap run"
   },
   "license": "ISC",
   "dependencies": {

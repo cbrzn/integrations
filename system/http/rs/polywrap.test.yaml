@@ -1,0 +1,9 @@
+format: 0.1.0
+name: http-wrapper
+jobs:
+  get:
+    steps:
+      - uri: wrap://fs/./build
+        method: get
+        args:
+          url: "https://hyper.rs"
